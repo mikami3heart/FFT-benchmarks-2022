@@ -12,7 +12,7 @@ real(kind=8) :: dptime_timef, dptime_mpi, dptime_omp
 integer :: nthreads=1
 logical :: debug_print=.false.
 
-write(*,'(a,i8,i5)') "starting SSL2 complex 3D FFT"
+write(*,'(a,i8,i5)') "starting SSL2 complex 1D FFT"
 
 allocate(in(max_length),stat=iaq1)
 allocate(work(max_length*2+70),stat=iaq2)
